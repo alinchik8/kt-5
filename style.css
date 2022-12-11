@@ -1,0 +1,267 @@
+.santa {
+    width: 200px;
+    height: 200px; 
+    
+}
+.santa:hover {
+    transform: translate(calc(100vw - 320px), 0);
+    transition-duration: 3s;
+    transition-delay: 0.2s;
+    transition-timing-function: linear;
+    animation-timing-function: linear;
+    transition-timing-function: cubic-bezier(0.5,.60,0.7,0.03);
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+.flag {/*елка 1й ярус*/
+    
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-left: 40px solid rgb(25, 126, 49);
+    border-bottom: 20px solid transparent;
+    position: relative;
+    left: 140px;
+    bottom: -140px;
+}
+.machta {/*елка 2й ярус*/
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid transparent;
+    border-left: 50px solid rgb(25, 126, 49);
+    border-bottom: 30px solid transparent;
+    position: relative;
+    left: 100px;
+    bottom: -90px;
+}
+.paluba {/*елка 3й ярус*/
+    width: 0px;
+    height: 0px;
+    border-top: 40px solid transparent;
+    border-left: 60px solid rgb(25, 126, 49);
+    border-bottom: 40px solid transparent;
+    position: relative;
+    left: 45px;
+    bottom: -20px;
+}
+.palk {/*ствол*/
+    width: 40px;
+    height: 15px;
+    background: rgb(49, 30, 30);
+    position: relative;
+    left: 5px;
+    bottom: 25px;
+}
+.gol {/*центральный шарик*/
+    width: 10px;
+    height: 10px;
+    background: red;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    left: 180px;
+    bottom: 40px;
+}
+.o {/*фон*/
+    width: 20px;
+    height: 40px;
+    background: red;
+    -moz-border-radius: 30px / 10px;
+    -webkit-border-radius: 30px / 10px;
+    border-radius: 20px;
+    position: relative;
+    left: 80px;
+    bottom: 90px;
+}
+.u {/*фон*/
+    width: 40px;
+    height: 15px;
+    background: red;
+    -moz-border-radius: 30px / 10px;
+    -webkit-border-radius: 30px / 10px;
+    border-radius: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 100px;
+}
+.s {/*фон*/
+    width: 10px;
+    height: 20px;
+    background: rgb(0, 0, 0);
+    -moz-border-radius: 30px / 10px;
+    -webkit-border-radius: 30px / 10px;
+    border-radius: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 115px;
+}
+.p {/*фон*/
+    width: 50px;
+    height: 50px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 20px;
+    position: relative;
+    left: 80px;
+    bottom: 185px;
+}
+.w {/*голова*/
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid red;
+    border-right: 30px solid rgb(215, 178, 178) ;
+    position: relative;
+    left: 115px;
+    bottom: 285px;
+}
+.m {/*фон*/
+    width: 30px;
+    height: 30px;
+    background: rgb(215, 178, 178);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 20px;
+    position: relative;
+    left: 120px;
+    bottom: 250px;
+}
+.t {/*фон*/
+    width: 15px;
+    height: 15px;
+    background: rgb(213, 205, 205);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 104px;
+    bottom: 325px;
+}
+.j {/*фон*/
+    width: 7px;
+    height: 7px;
+    background: rgb(174, 57, 57);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 145px;
+    bottom: 315px;
+}
+.k {/*фон*/
+    width: 5px;
+    height: 5px;
+    background: rgb(0, 0, 0);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 135px;
+    bottom: 325px;
+}
+.b {/*рот*/
+    width: 6px;
+    height: 5px;
+    background: rgb(150, 3, 3);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 140px;
+    bottom: 314px;
+}
+.q {/*рука*/
+    width: 15px;
+    height: 45px;
+    background: red;
+    -moz-border-radius: 30px / 10px;
+    -webkit-border-radius: 30px / 10px;
+    border-radius: 20px;
+    position: relative;
+    left: 115px;
+    bottom: 310px;
+}
+.no {/*глаз*/
+    width: 10px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    left: 100px;
+    bottom: 372px;
+}
+.nn {/*пряжка*/
+    width: 10px;
+    height: 5px;
+    background: rgb(241, 167, 7);
+    position: relative;
+    left: 100px;
+    bottom: 380px;
+}
+.mm {/*рука*/
+    width: 15px;
+    height: 15px;
+    background: rgb(215, 178, 178);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 20px;
+    position: relative;
+    left: 120px;
+    bottom: 374px;
+}
+.yy {/*шарик*/
+    width: 12px;
+    height: 12px;
+    background: rgb(0, 170, 255);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+    bottom: 410px;
+}
+.ll {/*шарик*/
+    width: 15px;
+    height: 15px;
+    background: rgb(252, 5, 244);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 55px;
+    bottom: 380px;
+}
+.vv {/*шарик*/
+    width: 12px;
+    height: 12px;
+    background: rgb(26, 255, 1);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 110px;
+    bottom: 397px;
+}
+.ss {/*шарик*/
+    width: 7px;
+    height: 7px;
+    background: rgb(213, 255, 1);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    left: 153px;
+    bottom: 427px;
+}
+.ii {/*шарик*/
+    width: 10px;
+    height: 10px;
+    background: rgb(84, 228, 178);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    left: 153px;
+    bottom: 423px;
+}
